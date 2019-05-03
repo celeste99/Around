@@ -1,6 +1,6 @@
 # Around
 
-A Cloud and React based Social Network - Front End Implementation
+A Cloud and React based Social Network - Backend Implementation
 
 1. Designed and implemented a geo-based social network web application with React JS
 2. Implemented features for users to create and browse posts and support search nearby posts (Ant Design, GeoLocation API and Google Map API)
