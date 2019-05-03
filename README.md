@@ -2,7 +2,7 @@
 
 A Cloud and React based Social Network - Backend Implementation
 
-1. Designed and implemented a geo-based social network web application with React JS
-2. Implemented features for users to create and browse posts and support search nearby posts (Ant Design, GeoLocation API and Google Map API)
-3. Improved the authentication using token-based registration/login/logout flow with React Router v4
-   and server-side user authentication with JWT
+1. Launched a scalable web service in Go to handle posts and deployed to Google Cloud (GAE flex) 
+2. Used ElasticSearch (GCE) to provide geo-location-based search functions such that users can search nearby posts within a      distance (e.g. 200km)
+3. Utilized Google Dataflow to dump daily posts to a BigQuery table for offline analysis (keyword-based spam detection)
+4. Used Google Cloud ML API and Tensorflow to train a face detection model and integrate with the Go service
